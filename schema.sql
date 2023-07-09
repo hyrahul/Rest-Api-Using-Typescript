@@ -30,8 +30,10 @@ CREATE TABLE "public"."bills" (
     "contact_id" text,
     "memo" text,
     "line_items" jsonb,
-    PRIMARY KEY ("rootfi_id")
+    "payments" jsonb,
+    "documents" jsonb,
+    PRIMARY KEY ("rootfi_id"),
+    UNIQUE ("platform_id")
 );
-
 
 
