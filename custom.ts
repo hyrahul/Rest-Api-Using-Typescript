@@ -1,5 +1,5 @@
-import { ZOHO_READ_MAPPER } from "./mapper";
 import { IntegrationType } from "./types";
+import { generateHash } from "./util";
 
 interface Mapper {
   [key: string]: {
@@ -41,8 +41,13 @@ export function mapBillsToMapper(mapper: Mapper, bills: Bill[]): any[] {
       }
     }
     mappedObject.rootfi_integration_type = IntegrationType.ZOHO_BOOKS;
-    mappedObject.raw_data = JSON.stringify(bills);
-    mappedObject.line_items = JSON.stringify(ZOHO_READ_MAPPER.LINE_ITEMS);
+    mappedObject.raw_data = JSON.stringify(bill);
+    mappedObject.line_items = [];
+    mappedObject.memo = [];
+    mappedObject.documents = [];
+    mappedObject.payments = [];
+    mappedObject.purchase_order_ids = [];
+    mappedObject.data_hash = generateHash(mappedObject);
     mappedObjects.push(mappedObject);
   }
 

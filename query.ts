@@ -23,7 +23,7 @@ export function generateUpsertQuery(
     ON CONFLICT (${conflictColumn})
     DO UPDATE SET ${updateValues}
   `;
-  console.log(query);
+  //  console.log(query);
   return query;
 }
 

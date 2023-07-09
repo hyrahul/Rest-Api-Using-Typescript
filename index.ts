@@ -4,6 +4,8 @@ import { ZOHO_READ_MAPPER } from "./mapper";
 import { generateUpsertQuery } from "./query";
 import { pool } from "./dbClient";
 import config from "./config.json";
+import { mapResponse } from "./util";
+import { mappingConfig } from "./util";
 
 // Create an Express server
 const app = express();
@@ -39,6 +41,25 @@ app.post("/", async (req, res) => {
     //release the client
     client.release();
     res.json({ message: "Data successfully upserted into the database" });
+  } catch (error) {
+    console.error("Error:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
+app.get("/data", async (req, res) => {
+  try {
+    const tableName = config.database.tableName;
+    const client = await pool.connect();
+    const query = `SELECT * FROM ${tableName}`;
+    const result = await client.query(query);
+
+    // Release the client
+    client.release();
+
+    // Return the data as a response
+    const mappedResponse = mapResponse(result.rows, mappingConfig);
+    res.json(mappedResponse);
   } catch (error) {
     console.error("Error:", error);
     res.status(500).json({ error: "Internal Server Error" });
