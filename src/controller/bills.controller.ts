@@ -1,10 +1,14 @@
+import { Request, Response } from "express";
 import { upsertBills, getBillData } from "../service/bills.service";
 import logger from "../utils/logger";
 
-export async function createBillHandler(req: any, res: any) {
+export async function createBillHandler<T extends object>(
+  req: Request<any, any, T>,
+  res: Response
+) {
   try {
-    const { bills } = req.body;
-    const result = await upsertBills(bills);
+    const requestPayload = req.body as T;
+    const result = await upsertBills(requestPayload);
     res.json(result);
   } catch (error) {
     logger.error("Error:", error);

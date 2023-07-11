@@ -7,11 +7,14 @@ import dbConnect from "../utils/connect";
 import logger from "../utils/logger";
 import withTransaction from "../utils/transaction";
 
-export async function upsertBills(bills) {
+export async function upsertBills<T extends object>(requestPayload: T) {
+  const payload =
+    "bills" in requestPayload
+      ? (requestPayload as { bills: any[] }).bills
+      : (requestPayload as { bill: any }).bill;
   return withTransaction(async (client) => {
-    const mappedBills = mapper(ZOHO_READ_MAPPER.BILLS, bills);
-    console.log(mappedBills);
-
+    const mappedBills = mapper(ZOHO_READ_MAPPER.BILLS, payload);
+    logger.info(mappedBills);
     for (const mappedBill of mappedBills) {
       const query = upsertQuery(
         mappedBill,
@@ -35,7 +38,7 @@ export async function getBillData() {
     const mappedResponse = mapResponse(result.rows, mappingConfig);
     return mappedResponse;
   } catch (error) {
-    logger.error("Error: ", error);
+    logger.error(error);
     throw new Error("Internal Server Error");
   }
 }

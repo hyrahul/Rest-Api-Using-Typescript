@@ -1,6 +1,6 @@
 import { IntegrationType } from "../schema/types";
 import { generateHash } from "../utils/helper";
-
+import logger from "../utils/logger";
 interface Mapper {
   [key: string]: {
     field: string;
@@ -10,16 +10,28 @@ interface Mapper {
   };
 }
 
-interface Bill {
-  [key: string]: any;
-}
-
-export function mapper(mapper: Mapper, bills: Bill[]): any[] {
+export function mapper<T extends object, U extends object>(
+  mapper: Mapper,
+  requestPayload: U
+): any {
   const mappedObjects: any[] = [];
+  if (Array.isArray(requestPayload)) {
+    const billsArray = requestPayload;
+    for (const bill of billsArray) {
+      const mappedObject = map(bill);
+      mappedObjects.push(mappedObject);
+    }
+    logger.info("Inside Bills Array Mapping");
+  } else {
+    const bill = requestPayload;
+    logger.info("Inside Bill Single Object Mapping");
+    const mappedObject = map(bill);
+    mappedObjects.push(mappedObject);
+  }
+  return mappedObjects;
 
-  for (const bill of bills) {
+  function map(bill: any) {
     const mappedObject: any = {};
-
     for (const key in mapper) {
       if (mapper.hasOwnProperty(key)) {
         const value = mapper[key];
@@ -28,14 +40,12 @@ export function mapper(mapper: Mapper, bills: Bill[]): any[] {
         const outputType = value.output_type;
 
         if (field in bill) {
-          let fieldValue = bill[field];
-
-          if (inputType === "string" && outputType === "date") {
-            fieldValue = new Date(fieldValue);
-          } else if (inputType === "number" && outputType === "number") {
-            fieldValue = Number(fieldValue);
-          }
-
+          const fieldValue = getMappedFieldValue(
+            bill,
+            field,
+            inputType,
+            outputType
+          );
           mappedObject[key] = fieldValue;
         }
       }
@@ -48,8 +58,23 @@ export function mapper(mapper: Mapper, bills: Bill[]): any[] {
     mappedObject.payments = [];
     mappedObject.purchase_order_ids = [];
     mappedObject.data_hash = generateHash(mappedObject);
-    mappedObjects.push(mappedObject);
+    return mappedObject;
+  }
+}
+
+function getMappedFieldValue(
+  bill: any,
+  field: string,
+  inputType: string,
+  outputType: string
+): any {
+  let fieldValue = bill[field];
+
+  if (inputType === "string" && outputType === "date") {
+    fieldValue = new Date(fieldValue);
+  } else if (inputType === "number" && outputType === "number") {
+    fieldValue = Number(fieldValue);
   }
 
-  return mappedObjects;
+  return fieldValue;
 }
