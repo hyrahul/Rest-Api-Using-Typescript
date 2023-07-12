@@ -1,11 +1,12 @@
 {
   "name": "q",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "ts-node src/app.ts"
+    "start": "node build/app.js",
+    "server": "ts-node src/app.ts",
+    "prestart": "npm run build",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,7 @@
     "lodash": "^4.17.21",
     "mongoose": "^7.3.2",
     "nanoid": "^4.0.2",
-    "nodemon": "^1.14.9",
+    "nodemon": "^3.0.1",
     "pg": "^8.11.1",
     "pino": "^8.14.1",
     "pino-pretty": "^10.0.1",
@@ -43,6 +44,8 @@
     "@types/pino": "^7.0.5",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "description": ""
 }

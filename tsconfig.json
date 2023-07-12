@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "outDir": "build"
-  }
+    "outDir": "build",
+    "sourceMap": true,
+    "target": "es5",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", ".vscode"]
 }

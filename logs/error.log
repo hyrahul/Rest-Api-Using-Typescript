@@ -1,0 +1,422 @@
+2023-07-11 18:04:54:454 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:04:54:454 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 18:05:26:526 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 18:05:26:526 [32minfo[39m: [32m{[39m
+[32m  total_amount: 10,[39m
+[32m  updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m  rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m  raw_data: '{"platform_id":"3770712000000167015","document_number":"PO-00014","posted_date":"2023-02-23T00:00:00.000Z","due_date":"2023-02-23T00:00:00.000Z","contact_id":"3770712000000080780","currency":"INR","status":"DRAFT","total_amount":10,"amount_due":10,"updated_at":"2023-02-23T07:07:25.000Z","currency_rate":1,"rootfi_integration_type":"ZOHO_BOOKS","raw_data":"{\\"bill_id\\":\\"3770712000000167015\\",\\"purchaseorder_ids\\":[\\"3770712000000150001\\"],\\"vendor_id\\":\\"3770712000000080780\\",\\"vendor_name\\":\\"Mr. Ishwar Gogineni\\",\\"source_of_supply\\":\\"AR\\",\\"destination_of_supply\\":\\"AR\\",\\"gst_no\\":\\"\\",\\"reference_invoice_type\\":\\"\\",\\"contact_category\\":\\"business_none\\",\\"gst_treatment\\":\\"business_none\\",\\"tax_treatment\\":\\"business_none\\",\\"gst_return_details\\":{\\"return_period\\":\\"\\",\\"status\\":\\"\\"},\\"invoice_conversion_type\\":\\"invoice\\",\\"unused_credits_payable_amount\\":200,\\"status\\":\\"DRAFT\\",\\"color_code\\":\\"\\",\\"current_sub_status_id\\":\\"\\",\\"current_sub_status\\":\\"draft\\",\\"sub_statuses\\":[],\\"bill_number\\":\\"PO-00014\\",\\"date\\":\\"2023-02-23\\",\\"is_pre_gst\\":false,\\"due_date\\":\\"2023-02-23\\",\\"discount_setting\\":\\"flat\\",\\"is_tds_amount_in_percent\\":true,\\"tds_percent\\":\\"0.00\\",\\"tds_amount\\":0,\\"tax_account_id\\":\\"\\",\\"payment_terms\\":0,\\"payment_terms_label\\":\\"Due on Receipt\\",\\"payment_expected_date\\":\\"\\",\\"reference_number\\":\\"PO-00014\\",\\"recurring_bill_id\\":\\"\\",\\"due_by_days\\":4,\\"due_in_days\\":\\"\\",\\"currency_id\\":\\"3770712000000000099\\",\\"currency_code\\":\\"INR\\",\\"currency_symbol\\":\\"₹\\",\\"currency_name_formatted\\":\\"INR- Indian Rupee\\",\\"documents\\":[],\\"price_precision\\":2,\\"exchange_rate\\":1,\\"custom_fields\\":[],\\"custom_field_hash\\":{},\\"is_viewed_by_client\\":false,\\"client_viewed_time\\":\\"\\",\\"is_tds_applied\\":false,\\"is_item_level_tax_calc\\":false,\\"is_inclusive_tax\\":false,\\"tax_rounding\\":\\"entity_level\\",\\"filed_in_vat_return_id\\":\\"\\",\\"filed_in_vat_return_name\\":\\"\\",\\"filed_in_vat_return_type\\":\\"\\",\\"is_reverse_charge_applied\\":false,\\"is_uber_bill\\":false,\\"is_tally_bill\\":false,\\"track_discount_in_account\\":true,\\"line_items\\":[{\\"purchaseorder_item_id\\":\\"3770712000000150005\\",\\"line_item_id\\":\\"3770712000000167017\\",\\"item_id\\":\\"3770712000000085075\\",\\"itc_eligibility\\":\\"eligible\\",\\"gst_treatment_code\\":\\"\\",\\"image_document_id\\":\\"\\",\\"name\\":\\"Biryani\\",\\"account_id\\":\\"3770712000000035001\\",\\"account_name\\":\\"Employee Advance\\",\\"description\\":\\"test po item\\",\\"bcy_rate\\":10,\\"rate\\":10,\\"pricebook_id\\":\\"\\",\\"header_id\\":\\"\\",\\"header_name\\":\\"\\",\\"tags\\":[],\\"quantity\\":1,\\"discount\\":0,\\"discounts\\":[],\\"markup_percent\\":0,\\"tax_id\\":\\"\\",\\"tax_exemption_id\\":\\"\\",\\"tax_exemption_code\\":\\"\\",\\"tax_name\\":\\"\\",\\"tax_type\\":\\"tax\\",\\"tax_percentage\\":0,\\"line_item_taxes\\":[],\\"item_total\\":10,\\"item_order\\":1,\\"unit\\":\\"kg\\",\\"product_type\\":\\"goods\\",\\"item_type\\":\\"sales_and_purchases\\",\\"has_product_type_mismatch\\":false,\\"hsn_or_sac\\":\\"\\",\\"reverse_charge_tax_id\\":\\"\\",\\"image_name\\":\\"\\",\\"image_type\\":\\"\\",\\"is_billable\\":false,\\"customer_id\\":\\"\\",\\"customer_name\\":\\"\\",\\"project_id\\":\\"\\",\\"project_name\\":\\"\\",\\"invoice_id\\":\\"\\",\\"invoice_number\\":\\"\\",\\"item_custom_fields\\":[],\\"purchase_request_items\\":[]}],\\"submitted_date\\":\\"\\",\\"submitted_by\\":\\"\\",\\"submitted_by_name\\":\\"\\",\\"submitted_by_email\\":\\"\\",\\"submitted_by_photo_url\\":\\"\\",\\"submitter_id\\":\\"\\",\\"approver_id\\":\\"\\",\\"adjustment\\":0,\\"adjustment_description\\":\\"Adjustment\\",\\"discount_amount\\":0,\\"discount\\":0,\\"discount_applied_on_amount\\":0,\\"is_discount_before_tax\\":true,\\"discount_account_id\\":\\"\\",\\"discount_account_name\\":\\"\\",\\"discount_type\\":\\"entity_level\\",\\"sub_total\\":10,\\"sub_total_inclusive_of_tax\\":0,\\"tax_total\\":0,\\"total\\":10,\\"payment_made\\":0,\\"vendor_credits_applied\\":0,\\"is_line_item_invoiced\\":false,\\"purchaseorders\\":[{\\"purchaseorder_id\\":\\"3770712000000150001\\",\\"purchaseorder_number\\":\\"PO-00014\\",\\"purchaseorder_date\\":\\"15/02/2023\\",\\"date\\":\\"15/02/2023\\",\\"expected_delivery_date\\":\\"21/02/2023\\",\\"purchaseorder_status\\":\\"billed\\",\\"associated_order_status\\":\\"closed\\",\\"order_status\\":\\"closed\\"}],\\"taxes\\":[],\\"tax_override\\":false,\\"balance\\":10,\\"billing_address\\":{\\"address\\":\\"\\",\\"street2\\":\\"\\",\\"city\\":\\"\\",\\"state\\":\\"\\",\\"zip\\":\\"\\",\\"country\\":\\"\\",\\"fax\\":\\"\\",\\"phone\\":\\"\\",\\"attention\\":\\"\\"},\\"payments\\":[],\\"vendor_credits\\":[],\\"created_time\\":\\"2023-02-23T12:37:25+0530\\",\\"created_by_id\\":\\"3770712000000076001\\",\\"last_modified_id\\":\\"3770712000000076001\\",\\"last_modified_time\\":\\"2023-02-23T12:37:25+0530\\",\\"reference_id\\":\\"\\",\\"notes\\":\\"\\",\\"terms\\":\\"\\",\\"attachment_name\\":\\"\\",\\"open_purchaseorders_count\\":1,\\"template_id\\":\\"3770712000000031017\\",\\"template_name\\":\\"Standard Template\\",\\"page_width\\":\\"8.27in\\",\\"page_height\\":\\"11.69in\\",\\"orientation\\":\\"portrait\\",\\"template_type\\":\\"standard\\",\\"is_approval_required\\":false,\\"allocated_landed_costs\\":[],\\"unallocated_landed_costs\\":[],\\"entity_type\\":\\"bill\\",\\"credit_notes\\":[],\\"reference_bill_id\\":\\"\\",\\"can_send_in_mail\\":false,\\"approvers_list\\":[]}","memo":[],"documents":[],"payments":[],"purchase_order_ids":[],"data_hash":"d4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004"}',[39m
+[32m  memo: [],[39m
+[32m  documents: [],[39m
+[32m  payments: [],[39m
+[32m  purchase_order_ids: [],[39m
+[32m  data_hash: '51d27b2ef1da3300106c0f62729c7e5f1f250a017d113dc4a0a431a540020186'[39m
+[32m}[39m
+2023-07-11 18:05:26:526 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004'[39m
+[32m  }[39m
+[32m][39m
+2023-07-11 18:05:26:526 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-11 18:06:45:645 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:06:45:645 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 18:06:49:649 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 18:06:49:649 [32minfo[39m: [32mlineItemsMapped[39m
+2023-07-11 18:06:49:649 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004'[39m
+[32m  }[39m
+[32m][39m
+2023-07-11 18:06:49:649 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-11 18:47:48:4748 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:47:48:4748 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 18:47:54:4754 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 18:47:54:4754 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:47:54:4754 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:47:54:4754 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:47:54:4754 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:48:26:4826 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:48:26:4826 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 18:48:29:4829 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 18:48:29:4829 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:48:29:4829 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:48:29:4829 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:48:29:4829 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:49:38:4938 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:49:38:4938 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 18:49:41:4941 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 18:49:41:4941 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:49:41:4941 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:49:41:4941 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:49:41:4941 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 18:58:06:586 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-11 18:58:06:586 [32minfo[39m: [32mDb Connected[39m
+2023-07-11 19:04:21:421 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-11 19:04:21:421 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 19:04:21:421 [31merror[39m: [31mTransaction rollback because of :  Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 19:04:21:421 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-11 19:04:21:421 [31merror[39m: [31mError: Cannot read properties of undefined (reading 'length')[39m
+2023-07-12 12:03:59:359 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:03:59:359 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:04:35:435 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:04:35:435 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:05:09:59 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:08:48:848 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:08:48:848 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:08:53:853 [32minfo[39m: [32mbill Obj-> [39m
+2023-07-12 12:08:53:853 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:08:53:853 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:08:53:853 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004'[39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:08:53:853 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:13:03:133 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:13:03:133 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:13:22:1322 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:13:22:1322 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:13:24:1324 [32minfo[39m: [32mbill Obj {}[39m
+2023-07-12 12:27:29:2729 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:27:29:2729 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:27:47:2747 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:27:47:2747 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:27:50:2750 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:31:01:311 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:31:01:311 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:31:02:312 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:31:50:3150 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:31:50:3150 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:32:05:325 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:32:05:325 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:32:11:3211 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:32:11:3211 [31merror[39m: [31mTransaction rollback because of :  mappedObject.push is not a function[39m
+2023-07-12 12:32:11:3211 [31merror[39m: [31mTransaction rollback because of :  mappedObject.push is not a function[39m
+2023-07-12 12:32:11:3211 [31merror[39m: [31mError: mappedObject.push is not a function[39m
+2023-07-12 12:32:11:3211 [31merror[39m: [31mError: mappedObject.push is not a function[39m
+2023-07-12 12:33:06:336 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:33:06:336 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:33:08:338 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:33:08:338 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:33:08:338 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004'[39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:33:08:338 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:33:25:3325 [32minfo[39m: [32mResponse Fetched Successfully[39m
+2023-07-12 12:40:11:4011 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:40:11:4011 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:40:14:4014 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:40:14:4014 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:40:14:4014 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: {[39m
+[32m      platform_id: '3770712000000167017',[39m
+[32m      description: 'test po item',[39m
+[32m      item_id: '3770712000000085075',[39m
+[32m      total_discount: 0,[39m
+[32m      quantity: 1,[39m
+[32m      account_id: '3770712000000035001',[39m
+[32m      tax_id: '',[39m
+[32m      sub_total: 10,[39m
+[32m      rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m      raw_data: '{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}',[39m
+[32m      memo: [],[39m
+[32m      documents: [],[39m
+[32m      payments: [],[39m
+[32m      purchase_order_ids: [],[39m
+[32m      data_hash: '3e75a51deb6ca7e38090e918925ccec531c4a62e25ef947058bd58e9adf1b804'[39m
+[32m    }[39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:40:14:4014 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:40:18:4018 [32minfo[39m: [32mResponse Fetched Successfully[39m
+2023-07-12 12:45:10:4510 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:45:10:4510 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:45:14:4514 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:45:14:4514 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:45:14:4514 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: [ [Object] ][39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:45:14:4514 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:45:17:4517 [32minfo[39m: [32mResponse Fetched Successfully[39m
+2023-07-12 12:45:57:4557 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:45:57:4557 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:46:00:460 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:46:00:460 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:46:00:460 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: [ [Object] ][39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:46:00:460 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:46:49:4649 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:46:49:4649 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:46:52:4652 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:46:52:4652 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:46:52:4652 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: {[39m
+[32m      platform_id: '3770712000000167017',[39m
+[32m      description: 'test po item',[39m
+[32m      item_id: '3770712000000085075',[39m
+[32m      total_discount: 0,[39m
+[32m      quantity: 1,[39m
+[32m      account_id: '3770712000000035001',[39m
+[32m      tax_id: '',[39m
+[32m      sub_total: 10,[39m
+[32m      rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m      raw_data: '{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}',[39m
+[32m      memo: [],[39m
+[32m      documents: [],[39m
+[32m      payments: [],[39m
+[32m      purchase_order_ids: [],[39m
+[32m      data_hash: '3e75a51deb6ca7e38090e918925ccec531c4a62e25ef947058bd58e9adf1b804'[39m
+[32m    }[39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:46:52:4652 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:47:32:4732 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:47:32:4732 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:47:34:4734 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:47:34:4734 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:47:34:4734 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: {[39m
+[32m      platform_id: '3770712000000167017',[39m
+[32m      description: 'test po item',[39m
+[32m      item_id: '3770712000000085075',[39m
+[32m      total_discount: 0,[39m
+[32m      quantity: 1,[39m
+[32m      account_id: '3770712000000035001',[39m
+[32m      tax_id: '',[39m
+[32m      sub_total: 10,[39m
+[32m      rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m      raw_data: '{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}',[39m
+[32m      memo: [],[39m
+[32m      documents: [],[39m
+[32m      payments: [],[39m
+[32m      purchase_order_ids: [],[39m
+[32m      data_hash: '3e75a51deb6ca7e38090e918925ccec531c4a62e25ef947058bd58e9adf1b804'[39m
+[32m    }[39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:47:34:4734 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:50:53:5053 [32minfo[39m: [32mResponse Fetched Successfully[39m
+2023-07-12 12:52:30:5230 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 12:52:30:5230 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 12:52:37:5237 [32minfo[39m: [32mInside Bill Single Object Mapping[39m
+2023-07-12 12:52:37:5237 [32minfo[39m: [32mBill With Line Items : [39m
+2023-07-12 12:52:37:5237 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: [ [Object] ][39m
+[32m  }[39m
+[32m][39m
+2023-07-12 12:52:37:5237 [32minfo[39m: [32mTransaction commit successfully[39m
+2023-07-12 12:52:43:5243 [32minfo[39m: [32mResponse Fetched Successfully[39m
+2023-07-12 13:05:01:51 [32minfo[39m: [32mServer is running at http://localhost:3000[39m
+2023-07-12 13:05:01:51 [32minfo[39m: [32mDb Connected[39m
+2023-07-12 13:05:41:541 [32minfo[39m: [32mSingle Bill With Line Items : [39m
+2023-07-12 13:05:41:541 [32minfo[39m: [32m[[39m
+[32m  {[39m
+[32m    platform_id: '3770712000000167015',[39m
+[32m    document_number: 'PO-00014',[39m
+[32m    posted_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    due_date: 2023-02-23T00:00:00.000Z,[39m
+[32m    contact_id: '3770712000000080780',[39m
+[32m    currency: 'INR',[39m
+[32m    status: 'DRAFT',[39m
+[32m    total_amount: 10,[39m
+[32m    amount_due: 10,[39m
+[32m    updated_at: 2023-02-23T07:07:25.000Z,[39m
+[32m    currency_rate: 1,[39m
+[32m    rootfi_integration_type: 'ZOHO_BOOKS',[39m
+[32m    raw_data: '{"bill_id":"3770712000000167015","purchaseorder_ids":["3770712000000150001"],"vendor_id":"3770712000000080780","vendor_name":"Mr. Ishwar Gogineni","source_of_supply":"AR","destination_of_supply":"AR","gst_no":"","reference_invoice_type":"","contact_category":"business_none","gst_treatment":"business_none","tax_treatment":"business_none","gst_return_details":{"return_period":"","status":""},"invoice_conversion_type":"invoice","unused_credits_payable_amount":200,"status":"DRAFT","color_code":"","current_sub_status_id":"","current_sub_status":"draft","sub_statuses":[],"bill_number":"PO-00014","date":"2023-02-23","is_pre_gst":false,"due_date":"2023-02-23","discount_setting":"flat","is_tds_amount_in_percent":true,"tds_percent":"0.00","tds_amount":0,"tax_account_id":"","payment_terms":0,"payment_terms_label":"Due on Receipt","payment_expected_date":"","reference_number":"PO-00014","recurring_bill_id":"","due_by_days":4,"due_in_days":"","currency_id":"3770712000000000099","currency_code":"INR","currency_symbol":"₹","currency_name_formatted":"INR- Indian Rupee","documents":[],"price_precision":2,"exchange_rate":1,"custom_fields":[],"custom_field_hash":{},"is_viewed_by_client":false,"client_viewed_time":"","is_tds_applied":false,"is_item_level_tax_calc":false,"is_inclusive_tax":false,"tax_rounding":"entity_level","filed_in_vat_return_id":"","filed_in_vat_return_name":"","filed_in_vat_return_type":"","is_reverse_charge_applied":false,"is_uber_bill":false,"is_tally_bill":false,"track_discount_in_account":true,"line_items":[{"purchaseorder_item_id":"3770712000000150005","line_item_id":"3770712000000167017","item_id":"3770712000000085075","itc_eligibility":"eligible","gst_treatment_code":"","image_document_id":"","name":"Biryani","account_id":"3770712000000035001","account_name":"Employee Advance","description":"test po item","bcy_rate":10,"rate":10,"pricebook_id":"","header_id":"","header_name":"","tags":[],"quantity":1,"discount":0,"discounts":[],"markup_percent":0,"tax_id":"","tax_exemption_id":"","tax_exemption_code":"","tax_name":"","tax_type":"tax","tax_percentage":0,"line_item_taxes":[],"item_total":10,"item_order":1,"unit":"kg","product_type":"goods","item_type":"sales_and_purchases","has_product_type_mismatch":false,"hsn_or_sac":"","reverse_charge_tax_id":"","image_name":"","image_type":"","is_billable":false,"customer_id":"","customer_name":"","project_id":"","project_name":"","invoice_id":"","invoice_number":"","item_custom_fields":[],"purchase_request_items":[]}],"submitted_date":"","submitted_by":"","submitted_by_name":"","submitted_by_email":"","submitted_by_photo_url":"","submitter_id":"","approver_id":"","adjustment":0,"adjustment_description":"Adjustment","discount_amount":0,"discount":0,"discount_applied_on_amount":0,"is_discount_before_tax":true,"discount_account_id":"","discount_account_name":"","discount_type":"entity_level","sub_total":10,"sub_total_inclusive_of_tax":0,"tax_total":0,"total":10,"payment_made":0,"vendor_credits_applied":0,"is_line_item_invoiced":false,"purchaseorders":[{"purchaseorder_id":"3770712000000150001","purchaseorder_number":"PO-00014","purchaseorder_date":"15/02/2023","date":"15/02/2023","expected_delivery_date":"21/02/2023","purchaseorder_status":"billed","associated_order_status":"closed","order_status":"closed"}],"taxes":[],"tax_override":false,"balance":10,"billing_address":{"address":"","street2":"","city":"","state":"","zip":"","country":"","fax":"","phone":"","attention":""},"payments":[],"vendor_credits":[],"created_time":"2023-02-23T12:37:25+0530","created_by_id":"3770712000000076001","last_modified_id":"3770712000000076001","last_modified_time":"2023-02-23T12:37:25+0530","reference_id":"","notes":"","terms":"","attachment_name":"","open_purchaseorders_count":1,"template_id":"3770712000000031017","template_name":"Standard Template","page_width":"8.27in","page_height":"11.69in","orientation":"portrait","template_type":"standard","is_approval_required":false,"allocated_landed_costs":[],"unallocated_landed_costs":[],"entity_type":"bill","credit_notes":[],"reference_bill_id":"","can_send_in_mail":false,"approvers_list":[]}',[39m
+[32m    memo: [],[39m
+[32m    documents: [],[39m
+[32m    payments: [],[39m
+[32m    purchase_order_ids: [],[39m
+[32m    data_hash: 'd4485572eabce00ce8ae4cfde52a8866d81f1ce19bca81497cb0b4c03e813004',[39m
+[32m    line_items: [ [Object] ][39m
+[32m  }[39m
+[32m][39m
+2023-07-12 13:05:41:541 [32minfo[39m: [32mTransaction commit successfully[39m
