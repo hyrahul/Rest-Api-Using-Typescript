@@ -1,6 +1,7 @@
 import { IntegrationType } from "../schema/types";
 import { generateHash } from "../utils/helper";
 import logger from "../utils/logger";
+import { ZOHO_READ_MAPPER } from "./mapper";
 interface Mapper {
   [key: string]: {
     field: string;
@@ -18,19 +19,28 @@ export function mapper<T extends object, U extends object>(
   if (Array.isArray(requestPayload)) {
     const billsArray = requestPayload;
     for (const bill of billsArray) {
-      const mappedObject = map(bill);
+      const mappedObject = map(bill, mapper);
+      mappedObject.line_items = [];
       mappedObjects.push(mappedObject);
     }
     logger.info("Inside Bills Array Mapping");
   } else {
     const bill = requestPayload;
-    logger.info("Inside Bill Single Object Mapping");
-    const mappedObject = map(bill);
+    const lineItems = (bill as any).line_items;
+    const mappedLineItems: any[] = [];
+    let lineItemObject: any;
+    const mappedObject = map(bill, mapper);
+    for (const lineItem of lineItems) {
+      lineItemObject = map(lineItem, ZOHO_READ_MAPPER.LINE_ITEMS);
+    }
+    mappedLineItems.push(lineItemObject);
+    mappedObject["line_items"] = mappedLineItems;
+    logger.info("Single Bill With Line Items : ", mappedObject);
     mappedObjects.push(mappedObject);
   }
   return mappedObjects;
 
-  function map(bill: any) {
+  function map<T extends object, U extends object>(obj: T, mapper: Mapper) {
     const mappedObject: any = {};
     for (const key in mapper) {
       if (mapper.hasOwnProperty(key)) {
@@ -39,9 +49,9 @@ export function mapper<T extends object, U extends object>(
         const inputType = value.input_type;
         const outputType = value.output_type;
 
-        if (field in bill) {
+        if (field in obj) {
           const fieldValue = getMappedFieldValue(
-            bill,
+            obj,
             field,
             inputType,
             outputType
@@ -51,8 +61,7 @@ export function mapper<T extends object, U extends object>(
       }
     }
     mappedObject.rootfi_integration_type = IntegrationType.ZOHO_BOOKS;
-    mappedObject.raw_data = JSON.stringify(bill);
-    mappedObject.line_items = [];
+    mappedObject.raw_data = JSON.stringify(obj);
     mappedObject.memo = [];
     mappedObject.documents = [];
     mappedObject.payments = [];
