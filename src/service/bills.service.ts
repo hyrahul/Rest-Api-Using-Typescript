@@ -6,6 +6,11 @@ import { mapResponse, mappingConfig } from "../utils/helper";
 import dbConnect from "../utils/connect";
 import logger from "../utils/logger";
 import withTransaction from "../utils/transaction";
+import { Repository } from "../repository/billsRepository.class";
+import { Bill } from "../entity/bill.entity";
+import { QueryConfig } from "pg";
+
+const repository = new Repository<Bill>();
 
 export async function upsertBills<T extends object>(requestPayload: T) {
   const payload =
@@ -21,6 +26,7 @@ export async function upsertBills<T extends object>(requestPayload: T) {
         config.tableName,
         config.conflictColumn
       );
+      //const queryConfig: QueryConfig = { text: query };
       await client.query(query);
     }
 
@@ -41,4 +47,8 @@ export async function getBillData() {
     logger.error(error);
     throw new Error("Internal Server Error");
   }
+}
+
+export async function deleteById(id: string): Promise<void> {
+  await repository.delete(id, config.tableName);
 }
